@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 body{
+  color: white;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -9,41 +10,43 @@ html{
   background-image: url(/images/homeback.jpg);
 }
 footer{
-  
   background-color: rgb(112, 151, 54);
+}
+main{
+  background-color: white;
 }
 #banner{
   opacity: 90%;
   width: 100%;
 }
 .leftmost{
-  font-family: Merriweather;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: larger;
   float: left;
   width: 20%;
   margin-left: 10%;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 50px;
 }
 .centre{
-  font-family: Merriweather;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: larger;
   margin-left: 8%;
   float: left;
   width: 20%;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 50px;
 }
 .rightmost{
-  font-family: Merriweather;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: larger;
   float: left;
   width: 20%;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-bottom: 50px;
 }
 .totop{
-  font-family: Merriweather;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: larger;
   margin-left: 90%  ;
   width: 20%;
@@ -67,4 +70,50 @@ a:hover{
 }
 .up{
   width: 80px;
+}
+.gallery-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 70vh;
+  box-shadow: 0px 0px 2px 2px black;
+}
+.space{
+  background-color: white;
+  margin-top: 80px;
+}
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}  
+ .item:hover{
+    flex: 7;
+  }
+
+
+.item-1 { 
+  background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80');
+}
+
+.item-2 { 
+  background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80');
+}
+
+.item-3 { 
+  background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80');
+}
+
+.item-4 { 
+  background-image: url('https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80');
+}
+
+.item-5 { 
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80');
 }
