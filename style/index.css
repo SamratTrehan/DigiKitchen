@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+
+/*Common Code*/
+html{
+  background-color: #5a5b5e   ;
+}
 body{
   color: white;
   width: 80%;
@@ -7,15 +15,16 @@ body{
   margin-left: auto;
   box-shadow: 0px 0px 5px 2px black;
 }
-html{
-  background-color: #5a5b5e   ;
-}
 footer{
   background-color: rgb(112, 151, 54);
 }
 main{
   background-color: white;
 }
+
+
+
+/*Nav and Header*/
 #temp{
   width: 60%;
 }
@@ -88,34 +97,9 @@ div a:hover{
   background-image: linear-gradient(90deg,#26272b,#26272b,#829489);
   padding:76px
 }
+/*Main Body*/
 #banner{
   width: 100%;
-}
-.leftmost{
-  font-family: 'Kanit', sans-serif;
-  font-size: larger;
-  float: left;
-  width: 20%;
-  margin-left: 10%;
-  margin-top: 50px;
-  padding-bottom: 50px;
-}
-.centre{
-  font-family: 'Kanit', sans-serif;
-  font-size: larger;
-  margin-left: 8%;
-  float: left;
-  width: 20%;
-  margin-top: 50px;
-  padding-bottom: 50px;
-}
-.rightmost{
-  font-family: 'Kanit', sans-serif;
-  font-size: larger;
-  float: left;
-  width: 20%;
-  margin-top: 50px;
-  padding-bottom: 50px;
 }
 .totop{
   font-family: 'Kanit', sans-serif;
@@ -134,22 +118,6 @@ div a:hover{
   text-align: center;
   padding-top: 50px; 
   color: black;
-}
-li a{
-  color: grey;
-  text-decoration: none;
-}
-li a:hover{
-  color:blue;
-  text-decoration: none;
-}
-.icon{
-  width: 60px;
-  margin-right: 5%;
-  float: left;
-}
-.up{
-  width: 80px;
 }
 .gallery-wrap {
   margin-left: auto;
@@ -172,9 +140,7 @@ li a:hover{
 }  
  .item:hover{
     flex: 7;
-  }
-
-
+}
 .item-1 { 
   background-image: url('https://cdn.vox-cdn.com/thumbor/JJirw6wf5ku6VWp_4Vu9WNtl_jM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20059022/shutterstock_1435374326.jpg');
 }
@@ -194,6 +160,9 @@ li a:hover{
 .item-5 { 
   background-image: url('https://i.insider.com/5b33c37a1ae6621d008b499c?width=1136&format=jpeg');
 }
+
+
+/*Footer*/
 .site-footer{
   background-color: #26272B;
 }
@@ -241,4 +210,12 @@ hr{
 }
 .copyr{
   text-align: center;
+}
+li a{
+  color: grey;
+  text-decoration: none;
+}
+li a:hover{
+  color:blue;
+  text-decoration: none;
 }
