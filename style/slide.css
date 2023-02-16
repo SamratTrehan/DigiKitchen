@@ -7,7 +7,7 @@ body{
   box-shadow: 0px 0px 5px 2px black;
 }
 html{
-  background-image: url(/images/homeback.jpg);
+  background-image: linear-gradient(225deg, white, limegreen);
 }
 footer{
   background-color: rgb(112, 151, 54);
@@ -57,6 +57,12 @@ main{
 .totop:hover{
   transform: scale(1.2);
 }
+.heading{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  padding-top: 50px; 
+  color: black;
+}
 a{
   color: red;
 }
@@ -75,6 +81,7 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
+  margin-bottom: 2px;
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -99,21 +106,21 @@ a:hover{
 
 
 .item-1 { 
-  background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80');
+  background-image: url('https://cdn.vox-cdn.com/thumbor/JJirw6wf5ku6VWp_4Vu9WNtl_jM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20059022/shutterstock_1435374326.jpg');
 }
 
 .item-2 { 
-  background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80');
+  background-image: url('https://images.immediate.co.uk/production/volatile/sites/30/2022/10/Pork-carnitas-b94893e.jpg?quality=90&resize=556,505');
 }
 
 .item-3 { 
-  background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80');
+  background-image: url('https://www.lacademie.com/wp-content/uploads/2022/01/popular-chinese-foods.jpg');
 }
 
 .item-4 { 
-  background-image: url('https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80');
+  background-image: url('https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-italian-dishes-1645372086.jpg');
 }
 
 .item-5 { 
-  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80');
+  background-image: url('https://i.insider.com/5b33c37a1ae6621d008b499c?width=1136&format=jpeg');
 }
