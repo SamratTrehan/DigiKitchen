@@ -19,6 +19,13 @@ main{
 #temp{
   width: 60%;
 }
+div a{
+  color: white;
+  text-decoration: none;
+}
+div a:hover{
+  color: #A1B4AA;
+}
 .d1{
   float: left;
   padding-top: 20px;
@@ -34,30 +41,30 @@ main{
   font-weight: bold;
   margin-top: -15px;
   margin-bottom: -70px;
-  color: black;
   float: left;
 }
 .d2{
   font-family: 'Kanit', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: large;
-  color: black;
+  color: white;
   float: right;
   padding: 20px;
   padding-top: 70px;
+  padding-bottom: 55px;
 }
 .d2:hover{
   background-color: #26272B;
-  color: #A1B4AA;
 }
 .d3{
   font-family: 'Kanit', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: large;
-  color: black;
+  color: white;
   float: right;
   padding: 20px;
   padding-top: 70px;
+  padding-bottom: 55px;
 }
 .d3:hover{
   background-color: #26272B;
@@ -65,12 +72,13 @@ main{
 }
 .d4{
   font-family: 'Kanit', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: large;
-  color: black;
+  color: white;
   float: right;
   padding: 20px;
   padding-top: 70px;
+  padding-bottom: 55px;
 }
 .d4:hover{
   background-color: #26272B;
@@ -127,11 +135,11 @@ main{
   padding-top: 50px; 
   color: black;
 }
-a{
+li a{
   color: grey;
   text-decoration: none;
 }
-a:hover{
+li a:hover{
   color:blue;
   text-decoration: none;
 }
