@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-html{
-  background-color: #5a5b5e   ;
+html {
+  background-color: #5a5b5e;
 }
 body {
   margin: 0;
@@ -61,35 +61,35 @@ input::placeholder {
 }
 
 /*Nav and Header*/
-#temp{
+#temp {
   width: 60%;
 }
-div a{
+div a {
   color: white;
   text-decoration: none;
 }
-div a:hover{
-  color: #A1B4AA;
+div a:hover {
+  color: #a1b4aa;
 }
-.d1{
+.d1 {
   float: left;
   padding-top: 20px;
   padding-left: 20px;
 }
-.d1-2{
+.d1-2 {
   font-size: 72px;
-  background: -webkit-linear-gradient(#A1B4AA,#A1B4AA);
+  background: -webkit-linear-gradient(#a1b4aa, #a1b4aa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 50px;
   font-weight: bold;
   margin-top: -15px;
   margin-bottom: -70px;
   float: left;
 }
-.d2{
-  font-family: 'Kanit', sans-serif;
+.d2 {
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: large;
   color: white;
@@ -98,11 +98,11 @@ div a:hover{
   padding-top: 70px;
   padding-bottom: 55px;
 }
-.d2:hover{
-  background-color: #26272B;
+.d2:hover {
+  background-color: #26272b;
 }
-.d3{
-  font-family: 'Kanit', sans-serif;
+.d3 {
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: large;
   color: white;
@@ -111,12 +111,12 @@ div a:hover{
   padding-top: 70px;
   padding-bottom: 55px;
 }
-.d3:hover{
-  background-color: #26272B;
-  color: #A1B4AA;
+.d3:hover {
+  background-color: #26272b;
+  color: #a1b4aa;
 }
-.d4{
-  font-family: 'Kanit', sans-serif;
+.d4 {
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: large;
   color: white;
@@ -125,27 +125,27 @@ div a:hover{
   padding-top: 70px;
   padding-bottom: 55px;
 }
-.d4:hover{
-  background-color: #26272B;
-  color: #A1B4AA;
+.d4:hover {
+  background-color: #26272b;
+  color: #a1b4aa;
 }
-.spacer{
-  background-image: linear-gradient(90deg,#26272b,#26272b,#829489);
-  padding:76px
+.spacer {
+  background-image: linear-gradient(90deg, #26272b, #26272b, #829489);
+  padding: 76px;
 }
 
 /*Footer*/
-.site-footer{
-  background-color: #26272B;
+.site-footer {
+  background-color: #26272b;
 }
-h6{
-  font-family: 'Kanit', sans-serif;
+h6 {
+  font-family: "Kanit", sans-serif;
   font-size: larger;
   font-weight: 300;
   color: white;
 }
-.about{
-  font-family: 'Kanit', sans-serif;
+.about {
+  font-family: "Kanit", sans-serif;
   font-weight: 200;
   text-align: justify;
   color: grey;
@@ -154,8 +154,8 @@ h6{
   font-size: large;
   margin-left: 10%;
 }
-.cats{
-  font-family: 'Kanit', sans-serif;
+.cats {
+  font-family: "Kanit", sans-serif;
   color: grey;
   font-weight: 200;
   float: left;
@@ -163,8 +163,8 @@ h6{
   font-size: large;
   margin-left: 90px;
 }
-.links{
-  font-family: 'Kanit', sans-serif;
+.links {
+  font-family: "Kanit", sans-serif;
   font-weight: 200;
   color: grey;
   width: 30%;
@@ -172,22 +172,22 @@ h6{
   font-size: large;
   margin-left: 60%;
 }
-ul{
+ul {
   list-style-type: none;
 }
-hr{
-  border-top-color:#bbb;
-  opacity:0.5;
-  margin:30px 30px;
+hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+  margin: 30px 30px;
 }
-.copyr{
+.copyr {
   text-align: center;
 }
-li a{
+li a {
   color: grey;
   text-decoration: none;
 }
-li a:hover{
-  color:blue;
+li a:hover {
+  color: blue;
   text-decoration: none;
 }

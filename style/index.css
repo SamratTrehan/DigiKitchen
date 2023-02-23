@@ -1,122 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 /*Common Code*/
-html{
-  background-color: #5a5b5e   ;
+html {
+  background-color: #5a5b5e;
 }
-body{
+body {
   color: white;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0px 0px 5px 2px black;
 }
-footer{
+footer {
   background-color: rgb(112, 151, 54);
 }
-main{
+main {
   background-color: white;
 }
 
-
-
 /*Nav and Header*/
-#temp{
+.maind-flex {
+  display: flex;
+  flex-direction: row;
+  order: 6;
+  justify-content: space-around;
+  width: auto;
+  height: 150px;
+  background-color: azure;
+}
+#temp {
   width: 60%;
 }
-div a{
-  color: white;
+div a {
+  color: gray;
   text-decoration: none;
 }
-div a:hover{
-  color: #A1B4AA;
+div a:hover {
+  color: black;
 }
-.d1{
+.d1 {
   float: left;
   padding-top: 20px;
   padding-left: 20px;
 }
-.d1-2{
-  font-size: 72px;
-  background: -webkit-linear-gradient(#A1B4AA,#A1B4AA);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Satisfy', cursive;
-  font-size: 50px;
+.d1-2 {
+  font-size: 35px;
+  color: #5a5b5e;
+  font-family: "Satisfy", cursive;
   font-weight: bold;
-  margin-top: -15px;
-  margin-bottom: -70px;
+
   float: left;
 }
-.d2{
-  font-family: 'Kanit', sans-serif;
+.d2 {
+  width: 150px;
+  height: 150px;
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
-  font-size: large;
+  font-size: 30px;
   color: white;
   float: right;
-  padding: 20px;
-  padding-top: 70px;
-  padding-bottom: 55px;
+  /* padding: 20px; */
+  padding-top: 50px;
+  /* padding-bottom: 55px; */
 }
-.d2:hover{
-  background-color: #26272B;
-}
-.d3{
-  font-family: 'Kanit', sans-serif;
+
+.d3 {
+  width: 150px;
+  height: 150px;
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
-  font-size: large;
+  font-size: 30px;
   color: white;
   float: right;
-  padding: 20px;
-  padding-top: 70px;
-  padding-bottom: 55px;
+  /* padding: 20px; */
+  padding-top: 50px;
+  /* padding-bottom: 55px; */
 }
-.d3:hover{
-  background-color: #26272B;
-  color: #A1B4AA;
-}
-.d4{
-  font-family: 'Kanit', sans-serif;
+
+.d4 {
+  width: 150px;
+  height: 150px;
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
-  font-size: large;
+  font-size: 30px;
   color: white;
   float: right;
-  padding: 20px;
-  padding-top: 70px;
-  padding-bottom: 55px;
+  /* padding: 20px; */
+  padding-top: 50px;
+  /* padding-bottom: 55px; */
 }
-.d4:hover{
-  background-color: #26272B;
-  color: #A1B4AA;
-}
-.spacer{
-  background-image: linear-gradient(90deg,#26272b,#26272b,#829489);
-  padding:76px
+
+.spacer {
+  width: 150px;
+  height: 150px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  float: right;
+  /* padding: 20px; */
+  padding-top: 50px;
+  /* padding-bottom: 55px; */
 }
 /*Main Body*/
-#banner{
+#banner {
   width: 100%;
 }
-.totop{
-  font-family: 'Kanit', sans-serif;
+.totop {
+  font-family: "Kanit", sans-serif;
   font-size: larger;
-  margin-left: 90%  ;
+  margin-left: 90%;
   width: 20%;
   padding-top: 100px;
   padding-bottom: 100px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
-.totop:hover{
+.totop:hover {
   transform: scale(1.2);
 }
-.heading{
-  font-family: 'Kanit', sans-serif;
+.heading {
+  font-family: "Kanit", sans-serif;
   text-align: center;
-  padding-top: 50px; 
+  padding-top: 50px;
   color: black;
 }
 .gallery-wrap {
@@ -137,43 +143,42 @@ div a:hover{
   background-size: cover;
   background-repeat: none;
   transition: flex 0.8s ease;
-}  
- .item:hover{
-    flex: 7;
 }
-.item-1 { 
-  background-image: url('https://cdn.vox-cdn.com/thumbor/JJirw6wf5ku6VWp_4Vu9WNtl_jM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20059022/shutterstock_1435374326.jpg');
+.item:hover {
+  flex: 7;
 }
-
-.item-2 { 
-  background-image: url('https://images.immediate.co.uk/production/volatile/sites/30/2022/10/Pork-carnitas-b94893e.jpg?quality=90&resize=556,505');
+.item-1 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/JJirw6wf5ku6VWp_4Vu9WNtl_jM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/20059022/shutterstock_1435374326.jpg");
 }
 
-.item-3 { 
-  background-image: url('https://www.lacademie.com/wp-content/uploads/2022/01/popular-chinese-foods.jpg');
+.item-2 {
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/30/2022/10/Pork-carnitas-b94893e.jpg?quality=90&resize=556,505");
 }
 
-.item-4 { 
-  background-image: url('https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-italian-dishes-1645372086.jpg');
+.item-3 {
+  background-image: url("https://www.lacademie.com/wp-content/uploads/2022/01/popular-chinese-foods.jpg");
 }
 
-.item-5 { 
-  background-image: url('https://i.insider.com/5b33c37a1ae6621d008b499c?width=1136&format=jpeg');
+.item-4 {
+  background-image: url("https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-italian-dishes-1645372086.jpg");
 }
 
+.item-5 {
+  background-image: url("https://i.insider.com/5b33c37a1ae6621d008b499c?width=1136&format=jpeg");
+}
 
 /*Footer*/
-.site-footer{
-  background-color: #26272B;
+.site-footer {
+  background-color: #26272b;
 }
-h6{
-  font-family: 'Kanit', sans-serif;
+h6 {
+  font-family: "Kanit", sans-serif;
   font-size: larger;
   font-weight: 300;
   color: white;
 }
-.about{
-  font-family: 'Kanit', sans-serif;
+.about {
+  font-family: "Kanit", sans-serif;
   font-weight: 200;
   text-align: justify;
   color: grey;
@@ -182,8 +187,8 @@ h6{
   font-size: large;
   margin-left: 10%;
 }
-.cats{
-  font-family: 'Kanit', sans-serif;
+.cats {
+  font-family: "Kanit", sans-serif;
   color: grey;
   font-weight: 200;
   float: left;
@@ -191,8 +196,8 @@ h6{
   font-size: large;
   margin-left: 90px;
 }
-.links{
-  font-family: 'Kanit', sans-serif;
+.links {
+  font-family: "Kanit", sans-serif;
   font-weight: 200;
   color: grey;
   width: 30%;
@@ -200,22 +205,22 @@ h6{
   font-size: large;
   margin-left: 60%;
 }
-ul{
+ul {
   list-style-type: none;
 }
-hr{
-  border-top-color:#bbb;
-  opacity:0.5;
-  margin:30px 30px;
+hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+  margin: 30px 30px;
 }
-.copyr{
+.copyr {
   text-align: center;
 }
-li a{
+li a {
   color: grey;
   text-decoration: none;
 }
-li a:hover{
-  color:blue;
+li a:hover {
+  color: blue;
   text-decoration: none;
 }
