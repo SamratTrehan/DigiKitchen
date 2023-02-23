@@ -2,15 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 /*Common Code*/
-html {
-  background-color: #5a5b5e;
-}
 body {
   color: white;
-  width: 80%;
   margin-right: auto;
   margin-left: auto;
-  box-shadow: 0px 0px 5px 2px black;
 }
 footer {
   background-color: rgb(112, 151, 54);
