@@ -195,3 +195,33 @@ li a:hover {
   color: blue;
   text-decoration: none;
 }
+@media screen and (max-width: 1200px) {
+  html{
+    font-size: 0.8em;
+  }
+  header h2{
+    padding-top: 40px;
+    font-size: 0.9em;
+  }
+  header  a{
+    font-size: 0.8em;
+  }
+  footer h6, a, p{
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 900px) {
+  html{
+    font-size: 0.7em;
+  }
+  header h2{
+    padding-top: 40px;
+    font-size: 0.7em;
+  }
+  header  a{
+    font-size: 0.7em;
+  }
+  footer h6, a, p{
+    font-size: 0.7em;
+  }
+}
