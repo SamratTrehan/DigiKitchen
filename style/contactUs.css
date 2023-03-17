@@ -198,7 +198,18 @@ div a:hover {
   padding-top: 50px;
   /* padding-bottom: 55px; */
 }
-
+.d5{
+  width: 150px;
+  height: 150px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  float: right;
+  /* padding: 20px; */
+  padding-top: 50px;
+  /* padding-bottom: 55px; */
+}
 .spacer {
   width: 150px;
   height: 150px;
