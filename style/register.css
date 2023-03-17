@@ -1,0 +1,163 @@
+.rightDiv {
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(167, 183, 190); */
+  }
+  .emailHeading {
+    width: 100%;
+    height: 100px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    float: left;
+    clear: right;
+  }
+  
+  /* firstname */
+  .firstName{
+    width: 100%;
+    height: 75px;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: flex;
+   
+  
+  }
+  .leftFirstName{
+    width: 30%;
+    height: 75px;
+    /* background-color: brown; */
+    float: left;
+    text-align: end;
+    
+  }
+  .righFirsttName{
+    width: 70%;
+    height: 75px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  .textField{
+    width: 450px;
+    height: 20px;
+  }
+  /* lastName */
+  
+  .lastName{
+    width: 100%;
+    height: 75px;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: flex;
+   
+  }
+  
+  .leftLastName{
+    width: 30%;
+    height: 75px;
+    /* background-color: brown; */
+    float: left;
+    text-align: right;
+  }
+  
+  .rightLastName{
+    width: 70%;
+    height: 75px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Email */
+  
+  .email{
+    width: 100%;
+    height: 75px;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: flex;
+  }
+  
+  .leftEmail{
+    width: 30%;
+    height: 75px;
+    /* background-color: brown; */
+    float: left;
+    text-align: end;
+  
+  }
+  .rightEmail{
+    width: 70%;
+    height: 75px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* zip code */
+  
+  .zipCode{
+    width: 100%;
+    height: 75px;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: flex;
+  }
+  .leftZip{
+    width: 30%;
+    height: 75px;
+    /* background-color: brown; */
+    float: left;
+    text-align: end;
+  }
+  .rightZip{
+    width: 70%;
+    height: 75px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* subscribe */
+  .subscribe{
+    width: 100%;
+    height: 75px;
+    /* background-color: antiquewhite; */
+    float: left;
+    display: flex;
+  }
+  .subscribeLeft{
+    width: 30%;
+    height: 75px;
+    /* background-color: brown; */
+    float: left;
+    text-align: end;
+  }
+  .subscribeRight{
+    width: 70%;
+    height: 75px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  .subscribeLink{
+    width: 100px;
+    height: 20px;
+    border: 3px solid black;
+    
+    background-color: orange;
+    text-align: center;
+  }
+  h1,h2{
+    color: black;
+  }
