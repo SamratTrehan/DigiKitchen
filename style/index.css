@@ -3,7 +3,7 @@
 
 /*Common Code*/
 body {
-  color: white;
+  color: grey;
   margin-right: auto;
   margin-left: auto;
   background-color: azure;
@@ -244,7 +244,7 @@ div a:hover {
 .heading {
   font-family: "Kanit", sans-serif;
   text-align: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   color: black;
 }
 .gallery-wrap {
@@ -376,4 +376,95 @@ li a:hover {
   footer h6, a, p{
     font-size: 0.7em;
   }
+}
+/* latest recipes test */
+
+.latestRecipiesTest{
+  width: 100%;
+  height: 100px;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+ 
+}
+
+
+/* latest recipes */
+.latestRecipies{
+  width: 100%;
+  height: auto;
+  /* background-color: #0c48db; */
+  display: flex;
+  flex-wrap: wrap ;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  margin: 25px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* explore cuizine */
+.heading{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.exploreCuizine{
+  width: 100%;
+  height: 250px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* links explore cuizine */
+.linkButton{
+  border-radius: 50%;
+  width: 250px;
+  margin: 10px;
+}
+
+/* Veg or Non veg cards */
+.vegOrNonVeg{
+  width: 100%;
+  height: auto;
+  /* background-color: pink; */
+  display: flex;
+}
+.veg{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  
+}
+.VegHeading{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.nonVeg{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  flex-direction:row ;
 }
