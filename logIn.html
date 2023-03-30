@@ -8,18 +8,31 @@
     <title>Log In</title>
   </head>
   <body>
-    <header>
+    <div class="container-fluid">
       <!--Navigation Menu-->
+      <div class="row">
       <div class="maind-flex">
-        <div class="d1"><img src="images/icon.png" id="temp" /></div>
-        <div class="d1-2"><p>Digi Kitchen</p></div>
-        <div class="d2"><a href="index.html">Home</a></div>
-        <div class="d3"><a href="logIn.html">Log In</a></div>
-        <div class="d4"><a href="resigter.html">Register</a></div>
-        <div class="d5"><a href="contactUs.html">Contact Us</a></div>
-        <div class="spacer"><a href="about.html">About Us</a></div>
+        <!-- <div class=" d1"><img src="images/icon.png" id="temp"></div> -->
+        <div class="col-xl-2 col-0  d2"><a href="index.html">Digi Kitchen</a></div>
+        <div class="col-xl-2 d2"><a href="index.html">Home</a></div>
+        <div class="col-xl-2 d3"><a href="logIn.html">Log In</a></div>
+        <div class="col-xl-2 d4"><a href="resigter.html">Register</a></div>
+        <div class="col-xl-2 d5"><a href="contactUs.html">Contact Us</a></div>
+        <div class="col-xl-2 spacer"><a href="about.html">About Us</a></div>
       </div>
-    </header>
+    </div>
+    </div>
+      <!-- <br> -->
+      <div class="row">
+        <div class="col-sm-12">
+      <form action="" class="search-bar">
+        <input type="search" name="search" pattern=".*\S.*" required>
+        <button class="search-btn" type="submit">
+          <span>Search</span>
+        </button>
+      </form>
+    </div>
+    </div>
     <main class="login">
       <h1>LOG IN</h1>
       <form action="index.html">
