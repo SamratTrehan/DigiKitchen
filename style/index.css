@@ -30,7 +30,7 @@ main {
   width: 60%;
 }
 div a {
-  color: gray;
+  color: #f6412f;
   text-decoration: none;
 }
 div a:hover {
