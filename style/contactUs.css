@@ -134,8 +134,8 @@ body {
   order: 6;
   justify-content: space-around;
   width: auto;
-  height: 150px;
-  background-color: azure;
+  height: 75px;
+  background-color: white;
 }
 #temp {
   width: 60%;
@@ -162,64 +162,65 @@ div a:hover {
 }
 .d2 {
   width: 150px;
-  height: 150px;
+  height: 75px;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
-  font-size: 30px;
-  color: white;
+  font-size: 27px;
+  color: #f6412f;
   float: right;
   /* padding: 20px; */
-  padding-top: 50px;
+  padding-top: 20px;
   /* padding-bottom: 55px; */
 }
 
 .d3 {
   width: 150px;
-  height: 150px;
+  height: 75px;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: white;
   float: right;
   /* padding: 20px; */
-  padding-top: 50px;
+  padding-top: 20px;
   /* padding-bottom: 55px; */
 }
 
 .d4 {
   width: 150px;
-  height: 150px;
+  height: 75px;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: white;
   float: right;
   /* padding: 20px; */
-  padding-top: 50px;
+  padding-top: 20px;
   /* padding-bottom: 55px; */
 }
 .d5{
   width: 150px;
-  height: 150px;
+  height: 75px;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: white;
   float: right;
   /* padding: 20px; */
-  padding-top: 50px;
+  padding-top: 20px;
   /* padding-bottom: 55px; */
 }
+
 .spacer {
   width: 150px;
-  height: 150px;
+  height: 75px;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: white;
   float: right;
   /* padding: 20px; */
-  padding-top: 50px;
+  padding-top: 20px;
   /* padding-bottom: 55px; */
 }
 
