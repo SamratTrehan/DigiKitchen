@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap");
+/*Common Code*/
+body {
+ width: auto;
+ background-color: white;
+ font-family: 'Creepster', cursive;
+ font-family: 'Kanit', sans-serif;
+ font-family: 'Satisfy', cursive;
+}
+footer {
+  background-color: rgb(112, 151, 54);
+}
+main {
+  background-color: white;
+}
+
+/*Nav and Header*/
+header{
+  background-color: #f6412f;
+  padding-bottom: 30px;
+}
+.maind-flex {
+  display: flex;
+  flex-direction: row;
+  order: 6;
+  justify-content: space-around;
+  width: auto;
+  height: 75px;
+  background-color: #f6412f;
+}
+.maind-flex div a {
+    color: black;
+    text-decoration: none;
+  }
+  .maind-flex div a:hover {
+    color: black;
+  }
+  .d2 {
+    width: 150px;
+    height: 75px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: #f6412f;
+    float: right;
+    /* padding: 20px; */
+    padding-top: 20px;
+    /* padding-bottom: 55px; */
+  }
+  
+  .d3 {
+    width: 150px;
+    height: 75px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    float: right;
+    /* padding: 20px; */
+    padding-top: 20px;
+    /* padding-bottom: 55px; */
+  }
+  
+  .d4 {
+    width: 150px;
+    height: 75px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    float: right;
+    /* padding: 20px; */
+    padding-top: 20px;
+    /* padding-bottom: 55px; */
+  }
+  .d5{
+    width: 150px;
+    height: 75px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    float: right;
+    /* padding: 20px; */
+    padding-top: 20px;
+    /* padding-bottom: 55px; */
+  }
+  
+  .spacer {
+    width: 150px;
+    height: 75px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    float: right;
+    /* padding: 20px; */
+    padding-top: 20px;
+    /* padding-bottom: 55px; */
+  }
+  /*Footer*/
+.site-footer {
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+    /* margin: 10px; */
+    padding: 10px;
+  }
+  .site-footer h6 {
+    font-family: "Kanit", sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    color: white;
+  }
+  .about {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    color: grey;
+    float: left;
+    width: 30%;
+    font-size: large;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cats {
+    font-family: "Kanit", sans-serif;
+    color: grey;
+    font-weight: 200;
+    float: left;
+    width: 30%;
+    font-size: large;
+    margin-left: 90px;
+  }
+  .links {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    color: grey;
+    width: 30%;
+    padding-top: 1px;
+    font-size: large;
+    margin-left: 60%;
+  }
+  .site-footer ul {
+    list-style-type: none;
+  }
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+    margin: 30px 30px;
+  }
+  .copyr {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .site-footer li a {
+    color: grey;
+    text-decoration: none;
+  }
+  .site-footer li a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1350px) {
+    body{
+      width: 100%;
+    }
+    .d2{
+      font-size: 20px;
+    }
+    .d3{
+      font-size: 20px;
+    }
+    .d4{
+      font-size: 20px;
+    }
+    .d5{
+      font-size: 20px;
+    }
+    .spacer{
+      font-size: 20px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+   .search_div{
+    display: none;
+   }
+   #banner{
+    height: 250px;
+   }
+   /* explore cuizine */
+   .exploreCuizineInner{
+    width: auto;
+   }
+   .linkButton{
+    width: 180px;
+   }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .exploreCuizineInner{
+     width: auto;
+    }
+    .linkButton{
+     width: 170px;
+    }
+    }
+    
+  @media only screen and (max-width: 576px) {
+   .exploreCuizineInner{
+    width: auto;
+   }
+   .linkButton{
+    width: 170px;
+   }
+   .recipeCategoryText{
+    font-size: 16px;
+   }
+   }
+   
+   @media only screen and (max-width: 1476px) {
+   .card{
+    margin: 20px;
+   }
+    }
+    
+    @media only screen and (max-width: 1176px) {
+      .card{
+       margin: 15px;
+      }
+       }
+       
+       @media only screen and (max-width: 887px) {
+        .dish_name{
+          font-size: 15px;
+        }
+         }
+   @media only screen and (max-width: 876px) {
+      .card{
+          margin: 10px;
+         }
+         .dish_name{
+          font-size: 12px;
+         }
+       }
+       @media only screen and (max-width: 1500px) {
+        .card{
+            margin: 20px;
+           }
+           
+         }
+         @media only screen and (max-width: 735px) {
+         .linkButton{
+          width: 150px;
+          margin: 0;
+         }
+           }
+           @media only screen and (max-width: 650px) {
+            .linkButton{
+             width: 110px;
+             margin: 0;
+            }
+              }  

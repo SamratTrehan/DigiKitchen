@@ -6,6 +6,7 @@
         <meta name="description" content="About us">
         <meta name="keywords" content="">
         <link rel="stylesheet" href="style/about.css">
+    <link rel ="stylesheet" href="./style/outline.css" type="text/css" >
         <style>
           h1 {
             text-align: center;
@@ -14,14 +15,16 @@
     </head>
     <body>
         <header>
-          <div class="maind-flex">
-            <div class="d1"><img src="images/icon.png" id="temp"></div>
-            <div class="d1-2"><a href="index.html"><h2>Digi Kitchen</h2></a></div>
-            <div class="d2"><a href="index.html">Home</a></div>
-            <div class="d3"><a href="logIn.html">Log In</a></div>
-            <div class="d4"><a href="resigter.html">Register</a></div>
-            <div class="d5"><a href="contactUs.html">Contact Us</a></div>
-            <div class="spacer"><a href="about.html">About Us</a></div>
+          <div class="container-fluid">
+            <!--Navigation Menu-->
+            <div class="row">
+            <div class="maind-flex">
+              <div class="col-xl-2 col-0  d2"><a href="index.html">Digi Kitchen</a></div>
+              <div class="col-xl-2 d3"><a href="logIn.html">Log In</a></div>
+              <div class="col-xl-2 d4"><a href="resigter.html">Register</a></div>
+              <div class="col-xl-2 d5"><a href="contactUs.html">Contact Us</a></div>
+              <div class="col-xl-2 spacer"><a href="about.html">About Us</a></div>
+            </div>
           </div>
         </header>
         <main>
@@ -72,13 +75,16 @@
         <footer class="site-footer">
       
           <div class="about">
-            <h6>About</h6>
+            <div>
+            <div style="display: flex;"><h6 >About</h6></div>
             <p class="text-justify">Our recipe website provides users with easy-to-follow recipes, tips, and ideas for making delicious meals. With a wide selection of recipes from all around the world, you'll find something to satisfy everyone's taste buds. Whether you're looking for a quick dinner solution or an impressive dinner party dish, our recipes, videos, and step-by-step instructions will help you create delicious meals with ease. Plus, explore tips and ideas for healthier eating, meal-prepping, and more. Get cooking today!</p>
           </div>
+        </div>
 
           <div class="cats">
+            <div>
             <h6>Categories</h6>
-            <ul class="footer-links">
+            <ul class="footer-links" >
               <li><a href="#">Snacks</a></li>
               <li><a href="#">Fast Food</a></li>
               <li><a href="#">Gourmet</a></li>
@@ -87,6 +93,7 @@
               <li><a href="#">Explore Map</a></li>
             </ul>
           </div>
+        </div>
 
           <div class="links">
             <h6>Quick Links</h6>
@@ -99,11 +106,11 @@
             </ul>
           </div>
         
-        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br>
         
           <div class="copyr"><hr>
-            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Digi Dreamers</p><br><br><br>
+            <p class="copyright-text" style="margin: 0;">Copyright &copy; 2023 All Rights Reserved by Digi Dreamers</p><br><br><br>
           </div>
-        </footer>
+    </footer>
     </body>
 </html>

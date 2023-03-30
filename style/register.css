@@ -158,6 +158,6 @@
     background-color: orange;
     text-align: center;
   }
-  h1,h2{
-    color: black;
-  }
+ html{
+  margin: 0px;
+ }
