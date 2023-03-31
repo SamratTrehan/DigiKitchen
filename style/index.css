@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap"); */
 
 /*Common Code*/
 body {
@@ -149,13 +149,10 @@ div a:hover {
   padding: 0.75em;
   transform: translate(0.5em,0.5em) scale(0.5);
   transform-origin: 100% 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  
   appearance: none;
 }
-.search-bar input::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+
 .search-bar input:focus,
 .search-bar input:valid {
   background: #fff;
@@ -257,7 +254,7 @@ main div{
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-repeat: none;
+  /* background-repeat: none; */
   transition: flex 0.8s ease;
 }
 .item:hover {
