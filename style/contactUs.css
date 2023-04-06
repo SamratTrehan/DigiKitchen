@@ -1,18 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-body {
-  align-items: center;
-  background-color: #f2f2f2;
-  display: block;
-  font-family: "Merriweather", serif;
-  flex-wrap: wrap;
-  box-shadow: 0px 0px 5px 2px black;
-  justify-content: center;
-  margin: auto;
-}
 
-/* syles of the main area */
 .container{
     background: #fff;
     border-radius: 6px;
@@ -55,7 +41,7 @@ body {
 
   .content .left-side .details i{
     font-size: 30px;
-    color: #3e2093;
+    color: black;
     margin-bottom: 10px;
   }
 
@@ -67,7 +53,7 @@ body {
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 14px;
-  color: #afafb6;
+  color: black;
 }
 
 .container .content .right-side{
@@ -78,7 +64,7 @@ body {
   .content .right-side .topic-text{
     font-size: 23px;
     font-weight: 600;
-    color: #3e2093;
+    color: black;
   }
 
   .right-side .input-box{
@@ -112,173 +98,19 @@ body {
     margin-top: 12px;
   }
 
-.right-side .button input[type="button"]{
+.right-side .button input[type="submit"]{
     color: #fff;
     font-size: 18px;
     outline: none;
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #3e2093;
+    background: #908f91;
     cursor: pointer;
     transition: all 0.3s ease;
   }
 
-  .button input[type="button"]:hover{
-    background: #5029bc;
+  .button input[type="submit"]:hover{
+    background: black;
   }
 
-/*Header*/.maind-flex {
-  display: flex;
-  flex-direction: row;
-  order: 6;
-  justify-content: space-around;
-  width: auto;
-  height: 75px;
-  background-color: white;
-}
-#temp {
-  width: 60%;
-}
-div a {
-  color: gray;
-  text-decoration: none;
-}
-div a:hover {
-  color: black;
-}
-.d1 {
-  float: left;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-.d1-2 {
-  font-size: 35px;
-  color: #5a5b5e;
-  font-family: "Satisfy", cursive;
-  font-weight: bold;
-
-  float: left;
-}
-.d2 {
-  width: 150px;
-  height: 75px;
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-size: 27px;
-  color: #f6412f;
-  float: right;
-  /* padding: 20px; */
-  padding-top: 20px;
-  /* padding-bottom: 55px; */
-}
-
-.d3 {
-  width: 150px;
-  height: 75px;
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: white;
-  float: right;
-  /* padding: 20px; */
-  padding-top: 20px;
-  /* padding-bottom: 55px; */
-}
-
-.d4 {
-  width: 150px;
-  height: 75px;
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: white;
-  float: right;
-  /* padding: 20px; */
-  padding-top: 20px;
-  /* padding-bottom: 55px; */
-}
-.d5{
-  width: 150px;
-  height: 75px;
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: white;
-  float: right;
-  /* padding: 20px; */
-  padding-top: 20px;
-  /* padding-bottom: 55px; */
-}
-
-.spacer {
-  width: 150px;
-  height: 75px;
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: white;
-  float: right;
-  /* padding: 20px; */
-  padding-top: 20px;
-  /* padding-bottom: 55px; */
-}
-
-/*Footer*/
-.site-footer{
-  background-color: #26272B;
-}
-h6{
-  font-family: 'Kanit', sans-serif;
-  font-size: larger;
-  font-weight: 300;
-  color: white;
-}
-.about{
-  font-family: 'Kanit', sans-serif;
-  font-weight: 200;
-  text-align: justify;
-  color: grey;
-  float: left;
-  width: 30%;
-  font-size: large;
-  margin-left: 10%;
-}
-.cats{
-  font-family: 'Kanit', sans-serif;
-  color: grey;
-  font-weight: 200;
-  float: left;
-  width: 30%;
-  font-size: large;
-  margin-left: 90px;
-}
-.links{
-  font-family: 'Kanit', sans-serif;
-  font-weight: 200;
-  color: grey;
-  width: 30%;
-  padding-top: 1px;
-  font-size: large;
-  margin-left: 60%;
-}
-ul{
-  list-style-type: none;
-}
-hr{
-  border-top-color:#bbb;
-  opacity:0.5;
-  margin:30px 30px;
-}
-.copyr{
-  text-align: center;
-  color: white;
-}
-li a{
-  color: grey;
-  text-decoration: none;
-}
-li a:hover{
-  color:blue;
-  text-decoration: none;
-}
