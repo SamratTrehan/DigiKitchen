@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+  
+  header {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+  }
+
+  .mainSection{
+    width: 100%;
+    height: 800px;
+  }
+  .leftSectionUser{
+    width: 40%;
+    height: auto;
+    /* background-color: red; */
+    float: left;
+  }
+  .profilePhoto{
+    width: 100%;
+    height: 40%;
+    /* background-color: lightblue; */
+  }
+  .profileImage{
+    text-align: center;
+    padding: 15px;
+  }
+  .profileDetails{
+    width: 100%;
+    height: 60%;
+    /* background-color: blueviolet; */
+    text-align: center;
+  }
+  .profiledetailss{
+    margin: 0;
+     padding: 10px;
+     font-size: 20px;
+  }
+  .rightSection{
+    width: 60%;
+    height: auto;
+    /* background-color: red; */
+    float: left;
+    text-align: center;
+  }
+  .myRecipeHeading{
+    width: 100%;
+    height: 10%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myRecipeCards{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    
+  }
+
+  /* see more */
+
+  .seeMore{
+    width: 100%;
+    height: 35px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  .buttonSeeMore{
+    width: auto;
+    height: auto;
+    background-color: #f6412f;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+  
+  }
+  .buttonSeeMore:hover{
+    background-color: white;
+    color: black;
+  
+  }
