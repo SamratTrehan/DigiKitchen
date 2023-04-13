@@ -56,18 +56,18 @@
                     <div class="right-side">
                       <div class="topic-text">Send us a message</div>
                       <p>If you have any inquaries regarding our recipes, you can send us message from here. It's our pleasure to help you.</p>
-                    <form action="#">
+                    <form action="#" autocomplete="on" id="form" class="form" onsubmit="formValidate()">
                       <div class="input-box">
-                        <input type="text" placeholder="Enter your name">
+                        <input type="text" id="name" class="name" placeholder="Enter your name">
                       </div>
                       <div class="input-box">
-                        <input type="text" placeholder="Enter your email">
+                        <input type="email" id="email" class="email" placeholder="Enter your email">
                       </div>
                       <div class="input-box message-box">
-                        <input type="text" placeholder="Enter your message">
+                        <input type="text" id="message" class="message" placeholder="Enter your message">
                       </div>
                       <div class="button">
-                        <input type="button" value="Send Now" >
+                        <input type="submit"  value="Submit" id="submit" class="submit" >
                       </div>
                     </form>
                   </div>
@@ -116,5 +116,6 @@
             <p class="copyright-text" style="margin: 0;">Copyright &copy; 2023 All Rights Reserved by Digi Dreamers</p><br><br><br>
           </div>
     </footer>
+    <script src="contactUs.js"></script>
     </body>
 </html>
