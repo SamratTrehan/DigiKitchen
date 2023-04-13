@@ -222,9 +222,7 @@ div a:hover {
 .search-bar input:valid + .search-btn:active {
   transform: translateY(1px);
 }
-.row{
-  background-color: lightgray;
-}
+
 /*Main Body*/
 main div{
   background-color: white;

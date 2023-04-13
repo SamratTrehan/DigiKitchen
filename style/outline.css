@@ -101,7 +101,6 @@ header{
   /*Footer*/
 .site-footer {
     background-color: lightgrey;
-    width: 100%;
     height: auto;
     /* margin: 10px; */
     padding: 10px;
@@ -153,7 +152,6 @@ header{
   }
   .copyr {
     text-align: center;
-    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -270,3 +268,6 @@ header{
              margin: 0;
             }
               }  
+body {
+  margin: 0px;
+}
