@@ -7,9 +7,11 @@
         <meta name="keywords" content="">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style/contactUs.css">
+        <link rel="stylesheet" href="style/dish.css">
         <link rel ="stylesheet" href="./style/outline.css" type="text/css" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="comment.js"></script>
         <style>
           h1 {
             text-align: center;
@@ -36,6 +38,19 @@
                 <iframe src="https://www.youtube.com/embed/ca51e7nMI2g/?controls=0" width="1280" height="720"></iframe>
             </center>
             <br><br><br>
+            <div class="comment-section">
+                <h2>Leave a Comment</h2>
+                <div id="comment-form">
+                  <label for="comment">Comment:</label>
+                  <textarea id="comment" name="comment" rows="5" required></textarea>
+                  <button type="submit" onclick="addcomment()">Submit</button>
+                </div>
+                <div id="comments">
+                  <!-- comments will be dynamically added here -->
+                </div>
+              </div>
+              <br><br><br>
+              
         </main>
         <footer class="site-footer">
       
