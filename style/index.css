@@ -342,10 +342,13 @@ main div{
 
 /* Veg or Non veg cards */
 .vegOrNonVeg{
-  width: 100%;
+  width: 50%;
   height: auto;
   /* background-color: pink; */
   display: flex;
+}
+.vegOrNonVeg .row{
+  width: 100%;
 }
 .veg{
   width: 50%;
@@ -412,3 +415,4 @@ main div{
   margin: 0;
   background-color: #f6412f;
 }
+
