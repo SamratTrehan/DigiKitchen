@@ -45,7 +45,8 @@
   
   .textField{
     width: 450px;
-    height: 20px;
+    height: 40px;
+    border-radius: 10px;
   }
   /* lastName */
   
